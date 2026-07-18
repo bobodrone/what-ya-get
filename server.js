@@ -10,8 +10,20 @@ const PORT = process.env.PORT || 3000;
 // --- Security middleware ---
 app.use(helmet());
 
+const allowedOrigins = [
+  'http://localhost:5173', // SvelteKit's default dev server port
+  'https://app.pennache.art' // adjust to whatever subdomain you'll actually use
+];
+
 app.use(cors({
-  origin: '*' // wide open for now — we'll lock this down later once we know your Svelte app's domain
+  origin: (origin, callback) => {
+    // allow requests with no origin (like curl, Postman, mobile apps)
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  }
 }));
 
 const limiter = rateLimit({
