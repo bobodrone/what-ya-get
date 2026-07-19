@@ -3,6 +3,9 @@ import express from 'express';
 import helmet from 'helmet';
 import cors from 'cors';
 import rateLimit from 'express-rate-limit';
+import { readFileSync } from 'node:fs'
+import { load } from 'js-yaml';
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -34,13 +37,43 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 
-// --- Data ---
-const items = [
-  { id: 1, name: 'Widget', price: 9.99 },
-  { id: 2, name: 'Gadget', price: 19.99 },
-  { id: 3, name: 'Gizmo', price: 14.99 }
-];
 
+function diffYearsFloat(start, end) {
+  const msYear = 365.2425 * 24 * 60 * 60 * 1000;
+  return (end - start) / msYear;
+}
+
+const pensionDate = new Date("2042-12-12");
+const todayDate = new Date();
+const timeToPensionYears = diffYearsFloat(todayDate, pensionDate);
+
+console.log("Time to pension: ", timeToPensionYears);
+
+let items = [];
+
+// Get document, or throw exception on error
+try {
+  const doc = load(readFileSync('wyg.yaml', 'utf8'))
+
+  items = doc.map(el => {
+    let value = 0;
+
+    if (el.round == 'fixed') {
+      value = el.constant;
+    } else {
+      value = el.round == 'floor' ? Math.floor(timeToPensionYears * el.constant) : Math.ceil(timeToPensionYears * el.constant);
+    }
+
+    return {text: el.name, nth: value, unit: el.unit};
+  });
+} catch (e) {
+  console.log(e)
+}
+
+console.log(items);
+
+
+// --- Data ---
 app.get('/', (req, res) => {
   res.json({ message: 'Hello from my API!' });
 });

@@ -1,0 +1,99 @@
+- name: "Number of days with me over time"
+  constant: 365.2425
+  unit: "Days"
+  round: ceil
+
+- name: "Number of work weeks with we around"
+  constant: 46
+  unit: "Weeks"
+  round: ceil
+
+- name: "Number of Soccer World Championships I will pretent I do not care about"
+  constant: 0.25
+  unit: "World cups"
+  round: floor
+
+- name: "Number of Daily Standups I will attend"
+  constant: 230
+  unit: "Stand-ups"
+  round: ceil
+
+- name: "Number of Kick-offs we will enjoy together"
+  constant: 2
+  unit: "Kick-offs"
+  round: floor
+
+- name: "Number of Monday meetings you will see me at"
+  constant: 46
+  unit: "Mondays"
+  round: floor
+
+- name: "Number of company monthly report meetings we will nod through together"
+  constant: 10
+  unit: "CFO Reports"
+  round: floor
+
+- name: "Number of Streaming music playlists I will facilitate in the office"
+  constant: 3
+  unit: "Playlists"
+  round: floor
+
+- name: "Number of Friday panic deploys I will do"
+  constant: 8
+  unit: "PANIC deploys"
+  round: floor
+
+- name: "Number of times I will make my autentic Mexican food for you"
+  constant: 0.5
+  unit: "MexDinners()"
+  round: floor
+
+- name: "Number of times, around Christman, I will rant about how they should consider set a limit on how many times it should be allowed to play the song \"All I want for CHristmans is You\" per year."
+  constant: 5
+  unit: "Rants(!)"
+  round: floor
+
+- name: "Number of times I might have slept in the office after a late night out"
+  constant: 1
+  unit: "Stayovers"
+  round: fixed
+
+- name: "Number of DJ sets I will play at - that I might invite you to come and listen"
+  constant: 0.75
+  unit: "Gigs"
+  round: ceil
+
+- name: "Number of times I will work remote from Berlin, my favorite city in the World"
+  constant: 0.67
+  unit: "Berlin trips"
+  round: floor
+
+- name: "Number of times I might jump on the handgrenade and offer my brain & soul to help out with the office Wifi"
+  constant: 2.42
+  unit: "Bad judgements"
+  round: floor
+
+- name: "Number of cups of Twinings Earl grey I will drink"
+  constant: 666
+  unit: "Golden Cups"
+  round: ceil
+
+- name: "Number of cups of coffee I will drink"
+  constant: 69
+  unit: "Black Cups"
+  round: floor
+
+- name: "Number of times I will eat lunch brought from home"
+  constant: 184
+  unit: "Lunches"
+  round: floor
+
+- name: "Money I will have spent on eating lunch out once a week"
+  constant: 12000
+  unit: "SEK"
+  round: ceil
+
+- name: "Times I rant about the importance to put the end user at the front"
+  constant: 92
+  unit: "Support rants"
+  round: ceil
