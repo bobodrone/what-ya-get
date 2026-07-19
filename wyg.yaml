@@ -12,14 +12,14 @@
   round: ceil
   art: "https://www.youtube.com/watch?v=dsgBpsNPQ50"
 
-- name: "Number of Soccer World Championships I will pretent I do care about"
+- name: "Number of Soccer World Championships that I will pretend I do care about"
   id: 3
   constant: 0.25
   unit: "World cups"
   round: floor
   art: "https://www.youtube.com/watch?v=7G-SO10WMFI"
 
-- name: "Number of Daily Standups I will attend"
+- name: "Number of Daily Stand-ups I will attend"
   id: 4
   constant: 230
   unit: "Stand-ups"
@@ -40,14 +40,14 @@
   round: floor
   art: "https://www.youtube.com/watch?v=SsmVgoXDq2w"
 
-- name: "Number of company monthly report meetings we will nod through together"
+- name: "Number of monthly report meetings we will nod through together"
   constant: 10
   id: 7
   unit: "CFO Reports"
   round: floor
   art: "https://www.youtube.com/watch?v=ETxmCCsMoD0"
 
-- name: "Number of Streaming music playlists I will facilitate in the office"
+- name: "Number of streaming music playlists I will facilitate in the office"
   id: 8
   constant: 3
   unit: "Playlists"
@@ -68,7 +68,7 @@
   round: floor
   art: "https://www.youtube.com/watch?v=uoXh_CzAo10"
 
-- name: "Number of times, around Christmas, I will rant loudly about how they should consider set a limit on how many times it should be allowed to play the song \"All I want for Christmas is You\" per year."
+- name: "Number of times, around Christmas, I will rant loudly about how they should maybe consider set a limit on how many times it should be allowed to play the song \"All I want for Christmas is You\" per year."
   id: 11
   constant: 5
   unit: "Rants"
