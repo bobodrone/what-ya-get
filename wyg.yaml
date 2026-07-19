@@ -1,4 +1,4 @@
-- name: "Number of days with me over time"
+- name: "Number of days with me over time until my retirement"
   id: 1
   constant: 365.2425
   unit: "Days"
@@ -12,7 +12,7 @@
   round: ceil
   art: "https://www.youtube.com/watch?v=dsgBpsNPQ50"
 
-- name: "Number of Soccer World Championships I will pretent I do not care about"
+- name: "Number of Soccer World Championships I will pretent I do care about"
   id: 3
   constant: 0.25
   unit: "World cups"
@@ -26,7 +26,7 @@
   round: ceil
   art: "https://youtu.be/RhJ0q7X3DLM?si=Kre181ALw9r1rmfJ&t=23"
 
-- name: "Number of Kick-offs we will enjoy together"
+- name: "Number of Kick-offs we will enjoy together!"
   id: 5
   constant: 2
   unit: "Kick-offs"
@@ -54,28 +54,28 @@
   round: floor
   art: "https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=PLB5Ac5TbLc2OHUC5uaAuFdbxMXQK3ZaAF"
 
-- name: "Number of Friday panic deploys I will do"
+- name: "Number of Friday panic deploys I most likely will do..."
   id: 9
   constant: 8
   unit: "PANIC deploys"
   round: floor
   art: "https://www.youtube.com/watch?v=kfVsfOSbJY0"
 
-- name: "Number of times I will make my autentic Mexican food for you"
+- name: "Number of times I will make my autentic Mexican food for the team"
   id: 10
   constant: 0.5
-  unit: "MexDinners()"
+  unit: "Dinners"
   round: floor
   art: "https://www.youtube.com/watch?v=uoXh_CzAo10"
 
-- name: "Number of times, around Christman, I will rant about how they should consider set a limit on how many times it should be allowed to play the song \"All I want for CHristmans is You\" per year."
+- name: "Number of times, around Christmas, I will rant loudly about how they should consider set a limit on how many times it should be allowed to play the song \"All I want for Christmas is You\" per year."
   id: 11
   constant: 5
-  unit: "Rants(!)"
+  unit: "Rants"
   round: floor
   art: "https://www.youtube.com/watch?v=E8gmARGvPlI"
 
-- name: "Number of times I might have slept in the office after a late night out"
+- name: "Number of times I might have slept in the office sofa after a late night out"
   id: 12
   constant: 1
   unit: "Stayovers"
@@ -96,42 +96,42 @@
   round: floor
   art: "https://www.youtube.com/watch?v=Bx51eegLTY8"
 
-- name: "Number of times I might jump on the handgrenade and offer my brain & soul to help out with the office Wifi"
+- name: "Number of times I might jump on the handgrenade and offer my brain & soul to help out with the office WiFi"
   id: 15
   constant: 2.42
   unit: "Bad judgements"
   round: floor
   art: "https://www.youtube.com/watch?v=erR5PSfKo7w"
 
-- name: "Number of cups of Twinings Earl grey I will drink"
+- name: "Number of cups of Twinings Earl Grey I will drink"
   id: 16
   constant: 666
   unit: "Golden Cups"
   round: ceil
   art: "https://www.youtube.com/watch?v=N8ApuiGY9Q4"
 
-- name: "Number of cups of coffee I will drink"
+- name: "Number of cups of black coffee I will drink"
   id: 17
   constant: 69
   unit: "Black Cups"
   round: floor
   art: "https://www.youtube.com/watch?v=zTbJBnkRkFo"
 
-- name: "Number of times I will eat lunch brought from home"
+- name: "Number of times I will eat lunch that I brought from home"
   id: 18
   constant: 184
   unit: "Lunches"
   round: floor
   art: "https://www.youtube.com/watch?v=MB3VkzPdgLA"
 
-- name: "Money I will have spent on eating lunch out once a week"
+- name: "Money I will have spent on eating lunch out - once a week"
   id: 19
   constant: 12000
   unit: "SEK"
   round: ceil
   art: "https://www.youtube.com/watch?v=wTP2RUD_cL0"
 
-- name: "Times I rant about the importance to put the end user at the front"
+- name: "Times I rant about the importance to put the end user at the front at all times"
   id: 20
   constant: 92
   unit: "Support rants"
