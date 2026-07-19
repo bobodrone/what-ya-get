@@ -47,8 +47,6 @@ const pensionDate = new Date("2042-12-12");
 const todayDate = new Date();
 const timeToPensionYears = diffYearsFloat(todayDate, pensionDate);
 
-console.log("Time to pension: ", timeToPensionYears);
-
 let items = [];
 
 // Get document, or throw exception on error
@@ -69,9 +67,6 @@ try {
 } catch (e) {
   console.log(e)
 }
-
-console.log(items);
-
 
 // --- Data ---
 app.get('/', (req, res) => {
