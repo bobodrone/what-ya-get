@@ -5,7 +5,7 @@
   round: ceil
   art: "https://www.youtube.com/watch?v=Y0pdQU87dc8"
 
-- name: "Number of work weeks with we around"
+- name: "Number of work weeks with me hanging around"
   id: 2
   constant: 46
   unit: "Weeks"
