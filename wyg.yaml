@@ -4,6 +4,7 @@
   unit: "Days with me!"
   round: ceil
   art: "https://www.youtube.com/watch?v=Y0pdQU87dc8"
+  weight: 1
 
 - name: "Number of work weeks with me hanging around"
   id: 2
@@ -11,6 +12,7 @@
   unit: "Work weeks with me!"
   round: ceil
   art: "https://www.youtube.com/watch?v=dsgBpsNPQ50"
+  weight: 2
 
 - name: "Number of Soccer World Championships that I will pretend I do care about"
   id: 3
@@ -18,6 +20,7 @@
   unit: "Soccer World cups"
   round: floor
   art: "https://www.youtube.com/watch?v=7G-SO10WMFI"
+  weight: 1
 
 - name: "Number of Daily Stand-ups I will attend"
   id: 4
@@ -25,6 +28,7 @@
   unit: "Attended Daily Stand-ups"
   round: ceil
   art: "https://youtu.be/RhJ0q7X3DLM?si=Kre181ALw9r1rmfJ&t=23"
+  weight: 2
 
 - name: "Number of Kick-offs we will enjoy together!"
   id: 5
@@ -32,6 +36,7 @@
   unit: "Awesome Kick-offs!"
   round: floor
   art: "https://www.youtube.com/watch?v=5W_wd9Qf0IE"
+  weight: 2
 
 - name: "Number of Monday meetings you will see me at"
   id: 6
@@ -39,6 +44,7 @@
   unit: "Monday meetings with me"
   round: floor
   art: "https://www.youtube.com/watch?v=SsmVgoXDq2w"
+  weight: 2
 
 - name: "Number of monthly report meetings we will nod through together"
   constant: 10
@@ -46,6 +52,7 @@
   unit: "Montly CFO Reports with me"
   round: floor
   art: "https://www.youtube.com/watch?v=ETxmCCsMoD0"
+  weight: 2
 
 - name: "Number of streaming music playlists I will facilitate in the office"
   id: 8
@@ -53,6 +60,7 @@
   unit: "Company music playlists"
   round: floor
   art: "https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=PLB5Ac5TbLc2OHUC5uaAuFdbxMXQK3ZaAF"
+  weight: 1
 
 - name: "Number of Friday panic deploys I most likely will do..."
   id: 9
@@ -60,6 +68,7 @@
   unit: "PANIC deploys"
   round: floor
   art: "https://www.youtube.com/watch?v=kfVsfOSbJY0"
+  weight: 2
 
 - name: "Number of times I will make my autentic Mexican food for the team"
   id: 10
@@ -67,6 +76,7 @@
   unit: "Mexican dinners!"
   round: floor
   art: "https://www.youtube.com/watch?v=uoXh_CzAo10"
+  weight: 1
 
 - name: "Number of times, around Christmas, I will rant loudly about how they should maybe consider set a limit on how many times it should be allowed to play the song \"All I want for Christmas is You\" per year."
   id: 11
@@ -74,6 +84,7 @@
   unit: "Christmas music rants"
   round: floor
   art: "https://www.youtube.com/watch?v=E8gmARGvPlI"
+  weight: 1
 
 - name: "Number of times I might have slept in the office sofa after a late night out"
   id: 12
@@ -81,6 +92,7 @@
   unit: "Office stayovers"
   round: fixed
   art: "https://www.youtube.com/watch?v=I219iqIFArA"
+  weight: 1
 
 - name: "Number of DJ sets I will play at - that I might invite you to come and listen"
   id: 13
@@ -88,6 +100,7 @@
   unit: "DJ-sets I'll play at"
   round: ceil
   art: "https://www.youtube.com/watch?v=HJwOa4OR94E"
+  weight: 1
 
 - name: "Number of times I will work remote from Berlin, my favorite city in the World"
   id: 14
@@ -95,6 +108,7 @@
   unit: "Remote Berlin trips"
   round: floor
   art: "https://www.youtube.com/watch?v=Bx51eegLTY8"
+  weight: 2
 
 - name: "Number of times I might jump on the handgrenade and offer my brain & soul to help out with the office WiFi"
   id: 15
@@ -102,6 +116,7 @@
   unit: "Bad judgements"
   round: floor
   art: "https://www.youtube.com/watch?v=erR5PSfKo7w"
+  weight: 1
 
 - name: "Number of cups of Twinings Earl Grey I will drink"
   id: 16
@@ -109,6 +124,7 @@
   unit: "Golden tea Cups"
   round: ceil
   art: "https://www.youtube.com/watch?v=N8ApuiGY9Q4"
+  weight: 2
 
 - name: "Number of cups of black coffee I will drink"
   id: 17
@@ -116,6 +132,7 @@
   unit: "Black coffee Cups"
   round: floor
   art: "https://www.youtube.com/watch?v=zTbJBnkRkFo"
+  weight: 1
 
 - name: "Number of times I will eat lunch that I brought from home"
   id: 18
@@ -123,6 +140,7 @@
   unit: "Home brought Lunches"
   round: floor
   art: "https://www.youtube.com/watch?v=MB3VkzPdgLA"
+  weight: 1
 
 - name: "Money I will have spent on eating lunch out - once a week"
   id: 19
@@ -130,6 +148,7 @@
   unit: "SEK"
   round: ceil
   art: "https://www.youtube.com/watch?v=wTP2RUD_cL0"
+  weight: 1
 
 - name: "Times I rant about the importance to put the END USER at front - at ALL times"
   id: 20
@@ -137,6 +156,7 @@
   unit: "Support rants"
   round: ceil
   art: "https://www.youtube.com/watch?v=0ttGgIQpAUc"
+  weight: 2
 
 - name: "Number of commits I most likely will have done"
   id: 21
@@ -144,6 +164,7 @@
   unit: "Git commits"
   round: ceil
   art: "https://www.youtube.com/watch?v=0Ssi-9wS1so"
+  weight: 2
 
 - name: "Number of merge conflict solved in either happiness or somewhat small frustruation"
   id: 22
@@ -151,3 +172,4 @@
   unit: "Solved merge conflicts"
   round: ceil
   art: "https://www.youtube.com/watch?v=AtKIspoqOpI"
+  weight: 2

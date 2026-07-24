@@ -62,7 +62,7 @@ try {
       value = el.round == 'floor' ? Math.floor(timeToPensionYears * el.constant) : Math.ceil(timeToPensionYears * el.constant);
     }
 
-    return {Id: el.id, Name: el.name, Nth: value, Unit: el.unit, Art: el.art};
+    return {Id: el.id, Name: el.name, Nth: value, Unit: el.unit, Art: el.art, Weight: el.weight};
   });
 } catch (e) {
   console.log(e)
