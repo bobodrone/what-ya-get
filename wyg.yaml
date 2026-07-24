@@ -68,7 +68,7 @@
   unit: "PANIC deploys"
   round: floor
   art: "https://www.youtube.com/watch?v=kfVsfOSbJY0"
-  weight: 2
+  weight: 3
 
 - name: "Number of times I will make my autentic Mexican food for the team"
   id: 10
@@ -76,7 +76,7 @@
   unit: "Mexican dinners!"
   round: floor
   art: "https://www.youtube.com/watch?v=uoXh_CzAo10"
-  weight: 1
+  weight: 2
 
 - name: "Number of times, around Christmas, I will rant loudly about how they should maybe consider set a limit on how many times it should be allowed to play the song \"All I want for Christmas is You\" per year."
   id: 11
@@ -124,7 +124,7 @@
   unit: "Golden tea Cups"
   round: ceil
   art: "https://www.youtube.com/watch?v=N8ApuiGY9Q4"
-  weight: 2
+  weight: 1
 
 - name: "Number of cups of black coffee I will drink"
   id: 17
@@ -164,7 +164,7 @@
   unit: "Git commits"
   round: ceil
   art: "https://www.youtube.com/watch?v=0Ssi-9wS1so"
-  weight: 2
+  weight: 3
 
 - name: "Number of merge conflict solved in either happiness or somewhat small frustruation"
   id: 22
@@ -172,4 +172,4 @@
   unit: "Solved merge conflicts"
   round: ceil
   art: "https://www.youtube.com/watch?v=AtKIspoqOpI"
-  weight: 2
+  weight: 3
