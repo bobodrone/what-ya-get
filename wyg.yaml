@@ -36,21 +36,21 @@
 - name: "Number of Monday meetings you will see me at"
   id: 6
   constant: 46
-  unit: "Monday meetings with me!"
+  unit: "Monday meetings with me"
   round: floor
   art: "https://www.youtube.com/watch?v=SsmVgoXDq2w"
 
 - name: "Number of monthly report meetings we will nod through together"
   constant: 10
   id: 7
-  unit: "Montly CFO Reports with me!"
+  unit: "Montly CFO Reports with me"
   round: floor
   art: "https://www.youtube.com/watch?v=ETxmCCsMoD0"
 
 - name: "Number of streaming music playlists I will facilitate in the office"
   id: 8
   constant: 3
-  unit: "Company created music playlists"
+  unit: "Company music playlists"
   round: floor
   art: "https://www.youtube.com/watch?v=fJ9rUzIMcZQ&list=PLB5Ac5TbLc2OHUC5uaAuFdbxMXQK3ZaAF"
 
@@ -64,21 +64,21 @@
 - name: "Number of times I will make my autentic Mexican food for the team"
   id: 10
   constant: 0.5
-  unit: "Mexican Dinners!"
+  unit: "Mexican dinners!"
   round: floor
   art: "https://www.youtube.com/watch?v=uoXh_CzAo10"
 
 - name: "Number of times, around Christmas, I will rant loudly about how they should maybe consider set a limit on how many times it should be allowed to play the song \"All I want for Christmas is You\" per year."
   id: 11
   constant: 5
-  unit: "Christmas Music Rants"
+  unit: "Christmas music rants"
   round: floor
   art: "https://www.youtube.com/watch?v=E8gmARGvPlI"
 
 - name: "Number of times I might have slept in the office sofa after a late night out"
   id: 12
   constant: 1
-  unit: "Office Stayovers"
+  unit: "Office stayovers"
   round: fixed
   art: "https://www.youtube.com/watch?v=I219iqIFArA"
 
@@ -106,14 +106,14 @@
 - name: "Number of cups of Twinings Earl Grey I will drink"
   id: 16
   constant: 666
-  unit: "Golden Tea Cups"
+  unit: "Golden tea Cups"
   round: ceil
   art: "https://www.youtube.com/watch?v=N8ApuiGY9Q4"
 
 - name: "Number of cups of black coffee I will drink"
   id: 17
   constant: 69
-  unit: "Black Coffee Cups"
+  unit: "Black coffee Cups"
   round: floor
   art: "https://www.youtube.com/watch?v=zTbJBnkRkFo"
 
